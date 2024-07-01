@@ -1,2 +1,159 @@
-#!/usr/bin/html
-This is my hackathon 1 project for a one page website for a startup incubator
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Incubator</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        header button {
+            background-color: hsl(119, 100%, 50%);
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero {
+            background: url('background.jpg') no-repeat center center/cover;
+            color: #fff;
+            padding: 100px 20px;
+        }
+        .hero button {
+            background-color: hsla(11, 80%, 39%, 0.599);
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Startup Incubator</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#mentorship">Mentorship</a></li>
+                <li><a href="#funding">Funding</a></li>
+                <li><a href="#business-plan">Business Plan</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button>Join Now</button>
+    </header>
+    <section id="home" class="hero">
+        <h1>Empowering Tomorrow's Entrepreneurs</h1>
+        <p>Access resources, mentorship, and funding opportunities to kickstart your business.</p>
+        <button>Get Started</button>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a startup incubator dedicated to helping aspiring entrepreneurs succeed,grow and prosper. Our mission is to provide the resources, mentorship, and funding necessary to launch and grow successful businesses.</p>
+        <p>Impact: 200+ startups supported, $50M+ total funding raised</p>
+    </section>
+    <section id="mentorship">
+        <h2>Our Topnotch Mentors</h2>
+        <div class="mentor"></div>
+        <p><strong>Eric wainaina</strong></p>
+        <p class="contact-info">phone: +254700123574 | Email: eric.wainaina@gmail.com</p>
+    </div>
+    <div class="mentor">
+        <p><strong>Robert Burale</strong></p>
+        <p class="contact-info">Phone: +254704784567 | Email: robertjburale@gmail.com</p>
+    </div>
+    <div class="mentor">
+        <p><strong>John Kiarie</strong></p>
+        <p class="contact-info">Phone: +254702345048 | Email: johnk254@gmail.com</p>
+    </div>
+</div>
+<div class="testimonials">
+    <h2>Testimonials from Startup Beneficiaries</h2>
+    <div class="testimonial">
+        <blockquote>
+            "The mentorship provided by the incubator was invaluable. It helped us navigate the complexities of the startup world and achieve our goals much faster."
+        </blockquote>
+        <p><strong>- Alice kimani</strong></p>
+        <p class="contact-info">Email: alice.kimani@gmail.com</p>
+    </div>
+    <div class="testimonial">
+        <blockquote>
+            "Thanks to the guidance from experienced mentors, we were able to secure funding and launch our product successfully."
+        </blockquote>
+        <p><strong>- Michael Lewis</strong></p>
+        <p class="contact-info">Email: michael.lewis@gmail.com</p>
+    </div>
+    <div class="testimonial">
+        <blockquote>
+            "The support and advice from the mentors were crucial in helping us scale our business. We are forever grateful."
+        </blockquote>
+        <p><strong>- Sarah Nyaboke</strong></p>
+        <p class="contact-info">Email: sarah.nyaboke@gmail.com</p>
+    </section>
+    <section id="funding">
+        <h2>Funding Opportunities</h2>
+        <p>Explore various funding opportunities available to our startups, including grants, investments, and competitions.</p>
+        <p>Current Opportunities: Mentorship Programs, Seed Funding, Co-Working Space, Workshops and Training, Market Access</p>
+        <p>External Resources: <a href="https://www.grants.gov">Grants.gov</a>, <a href="https://www.usaid.gov">USAID</a></p>
+        <p>Success Stories: Successful Funding Rounds, Award Winning Innovations, High Job Creation, Sustainable Business Models</p>
+    </section>
+    <section id="business-plan">
+        <h2>Business Plan Templates</h2>
+        <p>Download our business plan templates to get started on your business plan. We provide step-by-step guides and examples of successful business plans.</p>
+        <p>Download Templates: <a href="#">PDF</a>, <a href="#">Word</a>, <a href="#">Excel</a></p>
+        
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <p>Follow us on social media:</p>
+        <p><a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a></p>
+        <p>Address: 70103 Dadaab St, Garissa, Kenya</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Startup Incubator. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
